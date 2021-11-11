@@ -14,11 +14,13 @@ export class Satellite {
 		this.operational = operational;
    }
 	
-   shouldShowWarning(): boolean {
-	if (this.type.toUpperCase() === "SPACE DEBRIS") {
+   shouldShowWarning():boolean{
+	if (this.type.toLowerCase() === 'space debris'){
 		return true;
-	}
-	return false;
+		} else {
+		return false;
+		}
+	
 	}
 
 }
