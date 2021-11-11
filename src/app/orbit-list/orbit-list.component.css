@@ -4,7 +4,7 @@
 }
 
 .warning {
-	background-color: #dd4141;
+	background-color: #f17070;
 }
 
 table {
@@ -17,8 +17,8 @@ table {
 }
 
 tr:nth-child(even){
-    background-color: rgb(17, 17, 236);
-	color:#fff
+    background-color: rgb(140, 209, 123);
+	color:#111
 }
 
 .header-row {
