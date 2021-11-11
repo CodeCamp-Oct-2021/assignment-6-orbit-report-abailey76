@@ -12,3 +12,8 @@
 .counts span {
 	float: right;
 }
+
+#bonusDiv {
+	background: #0729ee;
+	color: #fff;
+}
