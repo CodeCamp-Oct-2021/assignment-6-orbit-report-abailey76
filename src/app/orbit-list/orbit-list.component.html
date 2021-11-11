@@ -4,7 +4,7 @@
         <th (click)="sort('type')" class="sortable">Type</th>
         <th>Operational</th>
         <th>Orbit Type</th>
-        <th (click)="sort('launchDate')" class="sortable">Launch Date</th>
+        <th>Launch Date</th>
     </tr>
     <tr *ngFor="let satellite of satellites; let i=index" [class.zebra]="(i % 2) === 0">
         <td>{{satellite.name}}</td>
