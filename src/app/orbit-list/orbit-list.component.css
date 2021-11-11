@@ -4,7 +4,7 @@
 }
 
 .warning {
-	background-color: #da8a8a;
+	background-color: #dd4141;
 }
 
 table {
@@ -14,6 +14,11 @@ table {
  margin: 12px 0;
  min-width: 300px;
  background: #dad8d8;
+}
+
+tr:nth-child(even){
+    background-color: rgb(17, 17, 236);
+	color:#fff
 }
 
 .header-row {
